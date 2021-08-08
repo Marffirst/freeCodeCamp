@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <script src="./scrypts/scroll.js"></script>
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id="navbar">
+        <ul id="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section">
+            <h1>Personal Portfolio</h1>
+                
+            
+        </section>
+        <section id="about-section">
+            <header class="headers">About</header>
+            <h2>Building robots for fun. Make them smart enough, but not to smart that they can take over the world</h2>
+            <img id="image" 
+                src="https://media-exp1.licdn.com/dms/image/C562CAQFXB5EEzkm1pg/comment-image-shrink_8192_480/0/1626243291882?e=1627880400&v=beta&t=5Z9WoeKyYbJTsC-ImD_9qerxSH5Mudoe_3eKIeHTow4" 
+                class="profileFoto"alt="Harmonic Science`s Spotify profile photo" />
+            <p> You don't have to have metal parts to create an awesome robot for kids. <br/>
+                Use common items you already have on hand to create different robotic looks, <br/>
+                and have your kids wage a robot war or make a play with <br/></p>
+        </section>
+        <section id="projects">
+            <header class="headers">Projects</header>
+            <div class="projects-container">
+                <a id="project1">
+                    <ul>
+                        <h2 class="project-tile">Robot parts</h2>
+                        <li>Arduino</li>
+                        <li>Servo motors</li>
+                        <li>Sensors</li>
+                    </ul>
+                </a>
+                <a id="project2">
+                    <ul>
+                        <h2 class="project-tile">Robot programing</h2>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                    </ul>
+                </a>
+                <a id="project3">
+                    <ul>
+                        <h2 class="project-tile">Web Development</h2>
+                        <li>Websites</li>
+                        <li>Comercial sites</li>
+                        <li>Create sites for fun</li>
+                    </ul>
+                </a>
+            </div>
+        </section>
+        <section id="contacts">
+            <header class="headers">Get In Touch</header>
+            <div class="contact-container">
+                <a id="profile-link" href="https://github.com/Marffirst" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a id="profile-link" href="https://www.linkedin.com/in/sergey-urakov/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a id="profile-link" href="https://codepen.io/marffirst" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                    CodePen
+                </a>
+            </div>
+        </section>
+        <footer>
+            <p class="link-footer">&copy;Created for website course:
+                <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a>
+            </p>
+        </footer>
+    </main>
+    <button id="scrollBtn" onclick="scrollUp()">△</button>
+</body>
+
+</html>
